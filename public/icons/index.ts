@@ -1,0 +1,9 @@
+export {default as Logo} from "./Logo";
+export {default as Fb} from "./Fb";
+export {default as Twitter} from './Twitter';
+export {default as Instagram} from "./Instragram";
+export {default as Time} from "./Time";
+export {default as RightArrow} from './RightArrow';
+export {default as Lightning} from './Lightning';
+export {default as Linkdin} from './Linkdin';
+export {default as Line} from './Line';
