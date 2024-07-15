@@ -81,7 +81,7 @@ const SoloArticle = ({
     <div className="d-flex justify-content-center mb-3">
       <div className="me-3">
         <Image src={Article1} alt="Article-1" height={292} width={292} />
-        {/* {image && <img src={urlFor(image)?.height(292).width(292).url() || ""} />} */}
+        {/* {image && <img src={urlFor(image)?.height(292).width(292).url() || ""} />}  */}
       </div>
       <div className="p-3">
         <Category>{category}</Category>
