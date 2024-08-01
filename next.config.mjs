@@ -6,6 +6,9 @@ const nextConfig = {
       ssr:true,
       displayName:true
     }
+  },
+  images: {
+    domains: [ "cdn.sanity.io" ]
   }
 };
 

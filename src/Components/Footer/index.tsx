@@ -48,7 +48,7 @@ const Footer = () => {
     <footer className="mt-5 pt-3">
       <div className="d-flex">
         {Data.map((images, index) => (
-          <div
+          <div key={index}
             style={{ height: "237.5px" }}
             className="position-relative w-100"
           >
@@ -78,7 +78,7 @@ const Footer = () => {
       </div>
       <Copyright className=" bg-black d-flex justify-content-center align-items-center">
         <p className=" text-center text-white">
-          © Copyright 2024 - All Rights Reserved by StaticMania
+          © Copyright 2024 - All Rights Reserved by Jashan
         </p>
       </Copyright>
     </footer>
